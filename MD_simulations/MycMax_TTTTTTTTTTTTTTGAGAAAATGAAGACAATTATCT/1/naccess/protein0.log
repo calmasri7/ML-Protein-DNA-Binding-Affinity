@@ -1,0 +1,43 @@
+ ACCALL - Accessibility calculations
+ MAX RESIDUES     8000
+ MAX ATOMS/RES     100
+ PDB FILE INPUT protein0.pdb
+ PROBE SIZE       1.40
+ Z-SLICE WIDTH   0.050
+ VDW RADII FILE /dfs6/pub/calmasri/naccess/Naccess/vdw.radii
+ EXCL HETATOMS
+ EXCL HYDROGENS
+ EXCL WATERS
+ READVDW  32 residues input
+ NON-STANDARD atom.| CD | in residue> ILE   105 
+ ASSUMED vdw of  CD  in ILE   105  =  1.87 (same as ARG)
+ NON-STANDARD atom.| CD | in residue> ILE   119 
+ ASSUMED vdw of  CD  in ILE   119  =  1.87 (same as ARG)
+ NON-STANDARD atom.| CD | in residue> ILE   127 
+ ASSUMED vdw of  CD  in ILE   127  =  1.87 (same as ARG)
+ NON-STANDARD atom.| CD | in residue> ILE   138 
+ ASSUMED vdw of  CD  in ILE   138  =  1.87 (same as ARG)
+ NON-STANDARD atom.| OC1| in residue> ALA   163 
+ GUESSED vdw of  OC1 in ALA   163  =  1.40
+ NON-STANDARD atom.| OC2| in residue> ALA   163 
+ GUESSED vdw of  OC2 in ALA   163  =  1.40
+ NON-STANDARD atom.| CD | in residue> ILE   184 
+ ASSUMED vdw of  CD  in ILE   184  =  1.87 (same as ARG)
+ NON-STANDARD atom.| CD | in residue> ILE   208 
+ ASSUMED vdw of  CD  in ILE   208  =  1.87 (same as ARG)
+ NON-STANDARD atom.| CD | in residue> ILE   216 
+ ASSUMED vdw of  CD  in ILE   216  =  1.87 (same as ARG)
+ NON-STANDARD atom.| CD | in residue> ILE   230 
+ ASSUMED vdw of  CD  in ILE   230  =  1.87 (same as ARG)
+ NON-STANDARD atom.| OC1| in residue> ALA   254 
+ GUESSED vdw of  OC1 in ALA   254  =  1.40
+ NON-STANDARD atom.| OC2| in residue> ALA   254 
+ GUESSED vdw of  OC2 in ALA   254  =  1.40
+ ADDED VDW RADII
+ CHAINS       1
+ RESIDUES   182
+ ATOMS     1516
+ SOLVA: PROGRAM ENDS CORRECTLY
+ CALCULATED ATOMIC ACCESSIBILITES
+ RELATIVE (STANDARD) ACCESSIBILITIES READFOR  20 AMINO ACIDS
+ SUMMED ACCESSIBILITIES OVER RESIDUES
