@@ -19,9 +19,10 @@ MMGBSA_ML_Project/
 │   ├── Mutate_PDB_w3dna.ipynb
 │   ├── AMBER_MMGBSA.ipynb
 │   └── process_results.ipynb
-└── scripts/
+└── extra_analyses/
     ├── ML_RF_noise
     ├── ML_RF_subsample
+	├── ML_RF_DNA
     └── extra_analyses.ipynb
 ```
 
