@@ -1,0 +1,11 @@
+{
+    "keep_last_percent": 20.0,
+    "navg": 20,
+    "n_estimators": 400,
+    "max_depth": 30,
+    "max_features": "log2",
+    "min_samples_split": 4,
+    "min_samples_leaf": 2,
+    "model_type": "reg",
+    "data_scale": "log"
+}

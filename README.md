@@ -14,11 +14,15 @@ MMGBSA_ML_Project/
 │   ├── ML_RF/
 │   ├── ML_NN/
 │   └── ML_REG/
+├── scripts/
+│   ├── process_gcPBM.ipynb
+│   ├── Mutate_PDB_w3dna.ipynb
+│   ├── AMBER_MMGBSA.ipynb
+│   └── process_results.ipynb
 └── scripts/
-    ├── process_gcPBM.ipynb
-    ├── Mutate_PDB_w3dna.ipynb
-    ├── AMBER_MMGBSA.ipynb
-    └── process_results.ipynb
+    ├── ML_RF_noise
+    ├── ML_RF_subsample
+    └── extra_analyses.ipynb
 ```
 
 ## Directory Descriptions
@@ -56,6 +60,18 @@ Data processing and analysis scripts:
 
   * `energy_corrections_df.csv`, `entropy_df.csv`, `energy_MMGBSA_df.csv`, `rawdat.csv`
 * **[`process_results.ipynb`](scripts/process_results.ipynb)**: Evaluates ML results and generates analytical visualizations.
+
+### extra_analyses
+
+Contains ML scripts adapted to subsampling and noise injection, and ML scripts adapted to DNA shape inputs (See [`extra_analyses/README.md`](extra_analyses/README.md)):
+
+* ML_RF_noise
+* ML_RF_subsample
+* ML_RF_DNA
+
+Also contains analysis scripts for partial dependence plots, noise injection, subsampling, DNA shape, and MMGBSA classification thresholding:
+
+* extra_analyses.ipynb
 
 ## Getting Started
 
